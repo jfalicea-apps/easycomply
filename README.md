@@ -2,6 +2,6 @@
 
 ```
 Dot ENV File should have two parameters: 
-CONNECTIONSTRING
-PORT
+1. CONNECTIONSTRING
+2. PORT
 ```
