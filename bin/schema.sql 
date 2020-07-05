@@ -1,0 +1,19 @@
+CREATE DATABASE vendormanagement;
+
+CREATE TABLE "vendorRisk" (
+    id integer PRIMARY KEY,
+    "vendorName" text,
+    "vendorDescription" text,
+    "vendorAnalysis" text,
+    "vendorRisk" text,
+    "stratRisk" text,
+    "operRisk" text,
+    "finRisk" text,
+    "compRisk" text,
+    "repRisk" text,
+    "legalRisk" text,
+    "vendorContractStart" text,
+    "vendorContractEnd" text,
+    "vendorContractCancelLeadTime" integer,
+    "vendorActive" boolean DEFAULT true
+);
